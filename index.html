@@ -8,19 +8,24 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos.css">
-    <title>Ejercicio Propuesto</title>
+    <title>Piano</title>
 </head>
 
 <body>
     <div class="container">
+        <div class="row">
+            <div class="col my-5">
+                <h1 class="text-center">Juego - Piano Js-Jquery</h1>
+            </div>
+        </div>
         <div class="row" id="padre">
-            <div class="col tecla mx-2" id="do"><a href="">DO</a></div>
-            <div class="col tecla mx-2" id="re"><a href="">RE</a></div>
-            <div class="col tecla mx-2" id="mi"><a href="">MI</a></div>
-            <div class="col tecla mx-2" id="fa"><a href="">FA</a></div>
-            <div class="col tecla mx-2" id="sol"><a href="">SOL</a></div>
-            <div class="col tecla mx-2" id="la"><a href="">LA</a></div>
-            <div class="col tecla mx-2" id="si"><a href="">SI</a></div>
+            <div class="col tecla mx-2 d-flex justify-content-center align-items-center font-weight-bold h4" id="do"><a class="text-white" href="">DO</a></div>
+            <div class="col tecla mx-2 d-flex justify-content-center align-items-center font-weight-bold h4" id="re"><a class="text-white" href="">RE</a></div>
+            <div class="col tecla mx-2 d-flex justify-content-center align-items-center font-weight-bold h4" id="mi"><a class="text-white" href="">MI</a></div>
+            <div class="col tecla mx-2 d-flex justify-content-center align-items-center font-weight-bold h4" id="fa"><a class="text-white" href="">FA</a></div>
+            <div class="col tecla mx-2 d-flex justify-content-center align-items-center font-weight-bold h4" id="sol"><a class="text-white" href="">SOL</a></div>
+            <div class="col tecla mx-2 d-flex justify-content-center align-items-center font-weight-bold h4" id="la"><a class="text-white" href="">LA</a></div>
+            <div class="col tecla mx-2 d-flex justify-content-center align-items-center font-weight-bold h4" id="si"><a class="text-white" href="">SI</a></div>
         </div>
         <div class="row">
             <audio id="ado" data-key="1" src="./audios/DO.wav"></audio>
@@ -30,7 +35,6 @@
             <audio id="asol" data-key="5" src="./audios/SOL.wav"></audio>
             <audio id="ala" data-key="6" src="./audios/LA.wav"></audio>
             <audio id="asi" data-key="7" src="./audios/SI.wav"></audio>
-            <input id="prueba" type="text">
         </div>
     </div>
 
